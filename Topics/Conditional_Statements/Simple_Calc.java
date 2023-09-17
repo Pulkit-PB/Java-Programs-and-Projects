@@ -82,7 +82,8 @@ public class Simple_Calc {
             }
         }
 
-
+        in.close();
     
     }
+    
 }
