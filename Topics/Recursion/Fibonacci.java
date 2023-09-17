@@ -36,8 +36,9 @@ public class Fibonacci{
         in.close();
     }
 */
-    //The above Method has Time Complexity as exponential O(2^n) and Space Complexity as O(n). Hence, Inefficient
-
+    //The recursion technique has Time Complexity as exponential O(2^n) and Space Complexity as O(n). Hence, Inefficient
+    
+    //Another Logic for recursion
     static int a=0,b=1,t=0;
 
     public static void Fib1(int x)
@@ -61,7 +62,7 @@ public class Fibonacci{
 
         System.out.println("The fibonacci series till "+key+" is:");
         System.out.println(a+"\n"+b);
-        //calling method to print the fibonacci series till the key-2 limit since first 2 elements are already printed
+        //Calling method to print the fibonacci series till the key-2 limit since first 2 elements are already printed
         Fib1(key-2);
         into.close();
 
