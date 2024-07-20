@@ -19,7 +19,7 @@ public class Fibonacci{
 
         return Fib(x-1)+Fib(x-2);
     }
-/*
+
     public static void main(String[] args) 
     {
         Scanner in=new Scanner(System.in);
@@ -35,7 +35,7 @@ public class Fibonacci{
         }
         in.close();
     }
-*/
+/*
     //The recursion technique has Time Complexity as exponential O(2^n) and Space Complexity as O(n). Hence, Inefficient
     
     //Another Logic for recursion
@@ -67,7 +67,8 @@ public class Fibonacci{
         into.close();
 
     }
+*/  
 
 }
-    
+ 
 
